@@ -13,7 +13,7 @@
 #### SONAR
 * Minor user interface improvements and bug fixes.
 * Select All will now apply to selected filters.
-	* Only if less than two filters are selected.
+	* Only if more than two filters are selected.
 
 ***
 

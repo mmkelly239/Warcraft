@@ -18,7 +18,7 @@
 ***
 
 ### Version 0.2.0
-**May 04, 2014 - BETA**
+**May 04, 2014 - ALPHA**
 
 #### GLOBAL
 * User is now notified if the game version is not supported.

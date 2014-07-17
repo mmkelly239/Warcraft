@@ -4,6 +4,31 @@
 
 ***
 
+### Version 0.3.0
+**Jul 17, 2014 - BETA**
+
+#### GLOBAL
+* Main windows are no longer Top-Most by default.
+	* Use the "-topmost" command-line argument to revert this.
+* Added executable icons and resource information.
+* Multiple instances no longer share taskbar space.
+* Added an opt-out feature for keyboard hooking.
+	* Done using the "-nohook" command-line argument.
+* Slightly improved the game selection algorithms.
+	
+#### SONAR
+* Plus and minus now zoom when the radar is in focus.
+* Added a sound alert feature in advanced filtering.
+	* Added seven new awesome sound effects!
+* Updated filters to reflect new properties.
+	* Previous filters will be auto-updated.
+* Resetting search field now auto focuses search field.
+
+#### WILD-CATCH
+* Out of limited release and publicly launched!
+
+***
+
 ### Version 0.2.2
 **Jun 10, 2014 - BETA**
 
@@ -14,6 +39,7 @@
 * Minor user interface improvements and bug fixes.
 * Select All will now apply to selected filters.
 	* Only if more than two filters are selected.
+* Out of limited release and publicly launched!
 
 ***
 

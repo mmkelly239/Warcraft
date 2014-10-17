@@ -1,6 +1,38 @@
 # Changes
 
-<p align="justify">This file describes all the changes made to the Yeti-Bots Warcraft software.  As of right now, this includes Vision, Sonar and Wild-Catch. These changes are separated by version number and sorted from the most recent changes to the oldest. Please note that minor changes might not show up in this list.</p>
+<p align="justify">This file describes all the changes made to the Yeti-Bots Warcraft software. As of right now, this includes Vision, Sonar and Wild-Catch. These changes are separated by version number and sorted from the most recent changes to the oldest. Please note that minor changes might not show up in this list.</p>
+
+***
+
+### Version 0.4.0
+**Oct 17, 2014 - BETA**
+
+#### GLOBAL
+* Updated Top-Most behavior to fix some issues.
+* New grayscale icons when no game is selected.
+* Clicking on game selection message now cancels game selection.
+
+#### SONAR
+* New command line to disable all overlays "-nooverlays".
+* Internal name cache is now cleared upon stopping Sonar.
+* Advanced filters can now be separated using pike ("|").
+	* Example: "worg|cow" or "77795|77828|82486".
+* Added new filters for Warlords of Draenor entities.
+* Updated filters to reflect new properties.
+	* Previous filters will be auto-updated.
+* New tracer feature in advanced filtering system.
+	* Draws a line from your character to the entity.
+* Dynamic neutral and friendly players are now blue.
+	* To reduce confusion and to match nameplates.
+
+#### WILD-CATCH
+* Added an option to disable auto anti-afk jumping.
+* Anti-afk jumping now occurs within a random range.
+* F12 now only stops Wild-Catch when the game is in focus.
+* Added a human characteristics mode for more variety.
+	* Occasionally ignores bites every now and then.
+	* Occasionally recasts the rod once or twice.
+	* Occasionally takes a break every now and then.
 
 ***
 
@@ -15,7 +47,7 @@
 * Added an opt-out feature for keyboard hooking.
 	* Done using the "-nohook" command-line argument.
 * Slightly improved the game selection algorithms.
-	
+
 #### SONAR
 * Plus and minus now zoom when the radar is in focus.
 * Added a sound alert feature in advanced filtering.
@@ -33,8 +65,8 @@
 **Jun 10, 2014 - BETA**
 
 #### GLOBAL
-* Added privilege checking when selecting a game.
-	
+* Added privilege checking when selecting the game.
+
 #### SONAR
 * Minor user interface improvements and bug fixes.
 * Select All will now apply to selected filters.
@@ -66,9 +98,9 @@
 	* Enter "skinnable" or "skin" to display skinnable NPCs.
 	* Enter "ally"  or "allies"  to display ally  Players.
 	* Enter "enemy" or "enemies" to display enemy Players.
-* Dynamic filters can now be separated using the "|" character.
+* Dynamic filters can now be separated using pike ("|").
 	* Example: "wolf|rat|wild*cat" or "lootable|skinnable".
-	
+
 #### WILD-CATCH
 * Temporarily removed Pushover notification features.
 
